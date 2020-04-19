@@ -24,9 +24,10 @@
 .Nav{
   
   display: flex;
+  justify-content: center;
   height: 10vh;
-  align-items: center;
   
+  background-color: gold;
 }
 
 .navTable{
@@ -66,4 +67,36 @@
 .title, .name, .photo, .info{
   margin: auto;
   text-align: center;
+}
+
+.title{
+  display: flex;
+  justify-content: center;/* horizontally */
+  align-items: center; /*vertically*/
+  height: 10vh;
+  font-size: 200%;
+  background-color: green;
+  
+ 
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color:yellowgreen;
+  font-size: 200%;
+}
+
+.photo{
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  background-color: blueviolet;
+}
+
+.info{
+  height: 40vh;
+  background-color: brown;
 }
