@@ -1,14 +1,11 @@
 import React from 'react';
+import Header from './Header'
 
 const Experience = () =>{
     return (
-        <div className='courses'>
-            <div className='superior'>
-                superior
-            </div>
-            <div className='inferior'>
-                inferior
-            </div>
+        <div className='Experience'>
+            <Header></Header>
+            experience...
         </div>
     );
 };

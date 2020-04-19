@@ -1,14 +1,11 @@
 import React from 'react';
+import Header from './Header'
 
 const Plus = () =>{
     return (
-        <div className='courses'>
-            <div className='superior'>
-                superior
-            </div>
-            <div className='inferior'>
-                inferior
-            </div>
+        <div className='Plus'>
+            <Header></Header>
+            plus...
         </div>
     );
 };

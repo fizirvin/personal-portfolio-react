@@ -5,8 +5,12 @@ import {BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import Home from './components/Home'
-import Courses from './components/Courses'
+import Skills from './components/Skills'
+import Experience from './components/Experience'
+import Education from './components/Education'
+import Plus from './components/Plus'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 class App extends React.Component {
   state={
@@ -62,14 +66,17 @@ class App extends React.Component {
           <div className="Content">
             <Switch>
               <Route path="/" exact component={ props => ( <Home></Home> )} />
-              <Route path="/education" exact component={ props => (  <Courses techs={this.state.techs}></Courses> )} />
+              <Route path="/skills" exact component={ props => ( <Skills></Skills> )} />
+              <Route path="/experience" exact component={ props => ( <Experience></Experience> )} />
+              <Route path="/education" exact component={ props => (  <Education techs={this.state.techs}></Education> )} />
+              <Route path="/plus" exact component={ props => (  <Plus techs={this.state.techs}></Plus> )} />
             </Switch>
           </div>
           <div className='Options'>
             <Nav></Nav>
           </div>
           <div className='Footer'>
-            Soy Footer
+            <Footer></Footer>
           </div>
         </div>
       

@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from './Header'
 
-class Courses extends React.Component {
+class Education extends React.Component {
 
     render(){
         return (
             <div className='courses'>
+                <Header></Header>
                 <div className='superior'>
                     superior
                 </div>
@@ -16,4 +18,4 @@ class Courses extends React.Component {
     }
 };
 
-export default Courses;
+export default Education;
