@@ -4,6 +4,7 @@ import {BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
 import './App.css';
+import Home from './components/Home'
 import Courses from './components/Courses'
 import Nav from './components/Nav'
 
@@ -58,13 +59,17 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <div>
-            <Nav></Nav>
-          </div>
           <div className="Content">
             <Switch>
+              <Route path="/" exact component={ props => ( <Home></Home> )} />
               <Route path="/education" exact component={ props => (  <Courses techs={this.state.techs}></Courses> )} />
             </Switch>
+          </div>
+          <div className='Options'>
+            <Nav></Nav>
+          </div>
+          <div className='Footer'>
+            Soy Footer
           </div>
         </div>
       
