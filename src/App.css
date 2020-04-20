@@ -3,6 +3,7 @@
   margin-bottom: .1vh;
   height: 99vh;
   border: solid;
+  border-radius: 5px;
   display: block;
 }
 
@@ -13,7 +14,7 @@
 
 .Options{
   background-color: royalblue;
-  height: 10vh;
+  height: 5vh;
   
 }
 
@@ -28,10 +29,10 @@
 
 .Footer{
   background-color: royalblue;
-  height: 9vh;
+  height: 14vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .Nav{
@@ -39,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 5vh;
   
   background-color: gold;
 }
@@ -127,3 +128,26 @@
   background-color: cadetblue;
   
 }
+
+.Home_img{
+  height: 18vh;
+  width: 20%;
+}
+
+.skills_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill_list{
+  text-align: left;
+}
+
+.header_table{
+  text-align: right;
+}
+
+
+
+
