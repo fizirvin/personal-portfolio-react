@@ -5,26 +5,26 @@ const Skills = () =>{
     return (
         <div className='Skills'>
             <Header></Header>
-            <div>skills</div>
+            skills
             <div className='skills_content'>
                 
                 <table className='skills_table'>
-                    <thead>
+                    <tbody>
                         <tr>
-                            <th className='header_table'>Technologic:</th>
-                            <th><ul className='skill_list'>
-                                    {['React.js', 'JavaScript + ES6', 'D3.js basic','HTML + CSS', 'Node.js', 'Express.js', 'MongoDB', 'GraphQL', 'Git + GitHub'].map( (skill, i) => <li key={i}>{skill}</li>)}
+                            <td className='header_table'>Tech:</td>
+                            <td><ul className='skill_list'>
+                                    {['React.js', 'JavaScript + ES6','HTML + CSS', 'Node.js', 'Express.js', 'MongoDB', 'MySQL','GraphQL', 'Git + GitHub', 'D3.js basic','AWS basic'].map( (skill, i) => <li key={i}>{skill}</li>)}
                                 </ul>
-                            </th>
+                            </td>
                         </tr>
                         <tr>
-                            <th className='header_table'>Soft:</th>
-                            <th><ul className='skill_list'>
+                            <td className='header_table'>Soft:</td>
+                            <td><ul className='skill_list'>
                                     {['English intermediate', 'Analitic + Problem solving', ' Critical thinking', 'Creativity', 'Teamwork + Communication'].map( (skill,i) => <li key={i}>{skill}</li>)}
                                 </ul>
-                            </th>
+                            </td>
                         </tr>
-                    </thead>
+                    </tbody>
                 </table>
             </div>
         </div>
