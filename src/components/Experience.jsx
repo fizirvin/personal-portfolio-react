@@ -24,6 +24,10 @@ const Experience = () =>{
                             </td>
                         </tr>
                         <tr>
+                            <td className='exp_row' colSpan='1'>Project: </td>
+                            <td>Injection Production App</td>
+                        </tr>
+                        <tr>
                             <td className='exp_row' colSpan='1'>
                                 Demo Deployment:
                             </td>
@@ -56,7 +60,7 @@ const Experience = () =>{
                             </td>
                         </tr>
                         <tr>
-                            <th colSpan='2'><a href="http://www.siisaglobal.com/">Siisa Global</a></th>
+                            <th colSpan='2'><a href="http://www.siisaglobal.com/">Siisa Global - telecommunications industry</a></th>
                         </tr>
                         <tr>
                             <td className='period' colSpan='2'>2014/Jan - 2017/Dec (1 year developing)</td>
@@ -65,9 +69,13 @@ const Experience = () =>{
                             <th colSpan='2'>Developer for Production Team</th>
                         </tr>
                         <tr>
-                            <td colSpan='2' className='description_experience'>Description: I was hired by the Production Mananager, for manage the production database mainly. I also collaborated within the Production team (Process Engineering Supervisors). Then, we decided to develop a web application interface.
+                            <td colSpan='2' className='description_experience'>Description: I was hired by the HR Mananager, for collaborate in this department. I was responsable for the HR & utility cars database. My boss asked me to do a web interface for this DBs and then i had the oportunity to do a web app for the warehouse department
                                 
                             </td>
+                        </tr>
+                        <tr>
+                            <td className='exp_row' colSpan='1'>Project: </td>
+                            <td>Injection Production App</td>
                         </tr>
                         <tr>
                             <td className='exp_row' colSpan='1'>
