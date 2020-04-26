@@ -21,9 +21,10 @@
 }
 
 .Header{
-  
+  background-color: lightcoral;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+   
   align-items: center;
   height: 5vh;
   font-size: 80%;
@@ -147,6 +148,8 @@
 }
 
 .header_table{
+  margin-top: 0;
+  padding-top: 0;
   text-align: right;
 }
 
@@ -167,9 +170,7 @@
   border-bottom: solid 1px;
 }
 
-.description_experience{
-  text-align: justify;
-}
+
 
 .Experience{
  
@@ -182,19 +183,104 @@
   height: 5vh;
 }
 
-.exp_row{
-  text-align: right;
-  font-size: 83%;
-}
 
-.period{
-  font-weight: bold;
-  text-align: center;
-}
+
+
 
 .git_url{
   font-size: 80%;
 }
 
+.header_section_title{
+  display: flex;
+  height: 5vh;
+  background-color: chartreuse;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
 
 
+.Skills{
+ 
+
+  height: 80vh;
+  max-height: 80vh;
+}
+
+.skills_content{
+  
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:0;
+  padding-bottom: 0;
+  padding-top: 0;
+  height: 70vh;
+  max-height: 70vh;
+  border-bottom: solid 1px;
+}
+
+.skills_table{
+  margin-left:0;
+  margin-top: 0;
+  padding-top: 0;
+  align-self: flex-start; 
+}
+
+.section_header{
+  display: flex;
+}
+
+.element{
+  padding-left: 10px;
+  font-size: 100%;
+
+  font-weight: 600; 
+}
+
+.experience_table{
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  margin-bottom: 3px;
+}
+
+.period{
+  font-size: 80%;
+  font-weight: bold;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.description_experience{
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.job_paragraph{
+  margin-top: 1vh;
+  margin-bottom: 0;
+  
+}
+
+.exp_row{
+  
+  font-size: 83%;
+  text-align: justify;
+  
+}
+
+.projects{
+  margin-bottom: 0vh;
+}
+
+.project-row{
+  font-size: 85%;
+  text-align: left;
+}

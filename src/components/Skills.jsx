@@ -5,7 +5,7 @@ const Skills = () =>{
     return (
         <div className='Skills'>
             <Header></Header>
-            skills
+            <div className='header_section_title'>Skills</div>
             <div className='skills_content'>
                 
                 <table className='skills_table'>
