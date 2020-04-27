@@ -5,7 +5,7 @@ const Experience = () =>{
     return (
         <div className='Experience'>
             <Header></Header>
-            <div className='experience_header'>Experience</div>
+            <div className='header_section_title'>Experience</div>
             <div className='experience_content'>
                 <table className='experience_table'>
                     <tbody>

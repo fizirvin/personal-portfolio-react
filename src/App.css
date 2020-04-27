@@ -103,7 +103,7 @@
   justify-content: center;
   align-items: center;
   height: 10vh;
-  background-color:yellowgreen;
+ 
   font-size: 200%;
 }
 
@@ -120,17 +120,14 @@
   justify-content: center;
   align-items: center;
   height: 40vh;
-  background-color: brown;
+  
 }
 
 .Footer_component{
   background-color: brown;
 }
 
-.Objective{
-  background-color: cadetblue;
-  
-}
+
 
 .Home_img{
   height: 18vh;
@@ -180,7 +177,10 @@
 }
 
 .experience_header{
+  display: flex;
   height: 5vh;
+  padding-left: 5%;
+  align-items: center;
 }
 
 
@@ -197,8 +197,9 @@
   background-color: chartreuse;
   text-align: center;
   font-weight: bold;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  padding-left: 5%;
 }
 
 
@@ -283,4 +284,19 @@
 .project-row{
   font-size: 85%;
   text-align: left;
+}
+
+.objective_container{
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;/* horizontally */
+  align-items: flex-start; /*vertically*/
+  text-align: justify;
+  
+}
+
+.Objective{
+  display: flex;
+  
 }
