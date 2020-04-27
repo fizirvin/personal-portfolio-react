@@ -20,15 +20,7 @@
   border: 1px solid;
 }
 
-.Header{
-  background-color: lightcoral;
-  display: flex;
-  justify-content: space-between;
-   
-  align-items: center;
-  height: 5vh;
-  font-size: 80%;
-}
+
 
 .Footer{
   
@@ -63,6 +55,7 @@
 .navButton{
   width: 100%;
   height: 100%;
+  margin-left: 15%;
 }
 
 .courses {
@@ -107,21 +100,9 @@
   font-size: 200%;
 }
 
-.photo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20vh;
- 
-}
 
-.info{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40vh;
-  
-}
+
+
 
 .Footer_component{
   background-color: brown;
@@ -129,10 +110,7 @@
 
 
 
-.Home_img{
-  height: 18vh;
-  width: 20%;
-}
+
 
 .skills_content{
   display: flex;
@@ -235,13 +213,20 @@
 
 .section_header{
   display: flex;
+ 
+ 
+  
 }
 
 .element{
+  display: flex;
   padding-left: 10px;
+  padding-right: 10px;
   font-size: 100%;
-
+  justify-content: center;/* horizontally */
+  align-items: flex-start; /*vertically*/
   font-weight: 600; 
+  height: 100%;
 }
 
 .experience_table{
@@ -293,10 +278,71 @@
   justify-content: center;/* horizontally */
   align-items: flex-start; /*vertically*/
   text-align: justify;
+  margin-top: 0;
+  
   
 }
 
 .Objective{
   display: flex;
+  margin-top: 0;
   
 }
+
+.image-profile{
+  
+  display: flex;
+  height: 4vh;
+  border-radius: 100%;
+  
+  align-self: center;
+}
+
+.profile-photo{
+  display: flex;
+  border-radius: 100%;
+  height: 20vh;
+ 
+ 
+}
+
+.objective_paragraph{
+  margin-top: 0;
+  padding-top: 0;
+ 
+}
+
+.photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+ 
+ 
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  
+  
+}
+
+.Header{
+  background-color: lightcoral;
+  display: flex;
+  justify-content: space-around;
+   
+  align-items: center;
+  height: 5vh;
+  font-size: 80%;
+}
+
+.section-profile{
+width: 10%;
+margin-right: 2%;
+}
+
+

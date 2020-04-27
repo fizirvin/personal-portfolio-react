@@ -3,16 +3,28 @@ import Header from './Header'
 
 class Education extends React.Component {
 
+
+    renderTechs = () =>{
+        const array = this.props.techs
+        if(!array){ return null} 
+        else{
+            return array.map(item =>{
+                return <div>{item.technologyName}</div>
+            })
+        }   
+    } 
+
+
     render(){
+
+       
+
         return (
-            <div className='courses'>
+            <div className='education'>
                 <Header></Header>
-                <div className='superior'>
-                    superior
-                </div>
-                <div className='inferior'>
-                    inferior
-                </div>
+                <div className='techs'>
+                    {this.renderTechs()}
+                </div>    
             </div>
         );
     }
