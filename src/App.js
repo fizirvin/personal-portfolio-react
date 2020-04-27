@@ -69,7 +69,7 @@ class App extends React.Component {
               <Route path="/skills" exact component={ props => ( <Skills></Skills> )} />
               <Route path="/experience" exact component={ props => ( <Experience></Experience> )} />
               <Route path="/education" exact component={ props => (  <Education techs={this.state.techs}></Education> )} />
-              <Route path="/plus" exact component={ props => (  <Plus techs={this.state.techs}></Plus> )} />
+              <Route path="/plus" exact component={ props => (  <Plus></Plus> )} />
             </Switch>
           </div>
           <div className='Options'>
