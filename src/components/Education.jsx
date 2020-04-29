@@ -9,7 +9,7 @@ class Education extends React.Component {
 
     renderTechs = () =>{
         const array = this.props.techs
-        if(!array){ return null} 
+        if(array.length=== 0){ return null} 
         else{
             return array.map(item =>{
                 return (

@@ -91,7 +91,7 @@ class App extends React.Component {
               <Route path="/education" exact component={ props => (  <Education techs={this.state.techs}></Education> )} />
               <Route path="/plus" exact component={ props => (  <Plus></Plus> )} />
 
-              <Route path="/education/certification/:id" exact component={ props => ( <Certification {...props} 
+              <Route path="/education/certifications/:id" exact component={ props => ( <Certification {...props} 
               paths={this.state.paths} /> )} 
               />
             </Switch>
