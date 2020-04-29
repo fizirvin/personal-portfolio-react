@@ -17,7 +17,7 @@ const Header = () =>{
                 
             </div>
             <div className='section_header section-profile'>
-                <div className='element profile-header'><img className='image-profile' src={picture} alt='profile-photo'></img></div>
+                <div className='element profile-header'><img className='image-profile' src={picture} alt='profile'></img></div>
             
             </div>
       </div>

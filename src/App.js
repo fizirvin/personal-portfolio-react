@@ -11,11 +11,13 @@ import Education from './components/Education'
 import Plus from './components/Plus'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Certification from './components/Certification'
 
 class App extends React.Component {
   state={
     server: 'https://personal-portfolio-server.irvinfiz.now.sh/graph',
-    techs:[]
+    techs:[],
+    paths: []
 
   }
 
@@ -41,6 +43,24 @@ class App extends React.Component {
             urlCertification
             platform
           }
+        } 
+      }
+      paths {
+        _id
+        pathName
+        coreTechnology
+        urlPath
+        urlImage
+        urlPathCertification
+        courses {
+          _id
+          courseName
+          urlImage
+          urlRepository
+          urlCourse
+          urlInstructor
+          urlCertification
+          platform
         }
       }
     }`
@@ -54,7 +74,7 @@ class App extends React.Component {
     const res = await fetch(url, opts);
     const data = await res.json();
     
-    this.setState({ techs: data.data.techs })
+    this.setState({ techs: data.data.techs, paths: data.data.paths })
   }
 
 
@@ -70,6 +90,10 @@ class App extends React.Component {
               <Route path="/experience" exact component={ props => ( <Experience></Experience> )} />
               <Route path="/education" exact component={ props => (  <Education techs={this.state.techs}></Education> )} />
               <Route path="/plus" exact component={ props => (  <Plus></Plus> )} />
+
+              <Route path="/education/certification/:id" exact component={ props => ( <Certification {...props} 
+              paths={this.state.paths} /> )} 
+              />
             </Switch>
           </div>
           <div className='Options'>
