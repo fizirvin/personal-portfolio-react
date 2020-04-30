@@ -33,6 +33,7 @@ class App extends React.Component {
           urlPath
           urlImage
           urlPathCertification
+          cert
           courses {
             _id
             courseName
@@ -52,6 +53,7 @@ class App extends React.Component {
         urlPath
         urlImage
         urlPathCertification
+        cert
         courses {
           _id
           courseName

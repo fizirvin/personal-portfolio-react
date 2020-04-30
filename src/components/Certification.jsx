@@ -41,17 +41,21 @@ class Certification extends Component {
     renderPaths = () =>{
       const path = this.state.path
       
-      if(path === {}){ return null} 
+      if(!path.cert){ return null} 
       else{
           return (
+            <div className='skill-certification'>
+              <img className='image-badge' src={require(`../images/${path.cert}`)} alt='profile-photo'></img>
                   <table className='skill-education-table'>
                       <thead>
+                      <tr><th colSpan='2'>{path.cert} </th></tr>
                           <tr><th colSpan='2'>{path.pathName} </th></tr>
                       </thead>
                       <tbody>
                         {this.renderCourses()}
                       </tbody>
                   </table>
+             </div>     
               )
         
       }   
@@ -70,10 +74,15 @@ class Certification extends Component {
       else{
         return ReactDOM.createPortal(
           <div className="Modal">
+            
               <div className="modal-content">
+               
+               <div className='certification_content'>
+                  {this.renderPaths()}
+                
+               </div>
                <button onClick={this.showState}>state</button>
                <Link to={'/education'}><button>close</button> </Link>
-                {this.renderPaths()}
 
 
               </div>
