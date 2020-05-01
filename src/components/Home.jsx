@@ -7,7 +7,7 @@ const Home = () =>{
         <div className='Home'>
             <div className='title'>Software Developer</div>
             <div className='name'>Irvin Cermeño Fiz</div>
-            <div className='photo'><img className='profile-photo' src={picture} alt='profile-photo'></img></div>
+            <div className='photo'><img className='profile-photo' src={picture} alt='profile'></img></div>
             <div className='info'>
                 <Objective></Objective>
             </div>

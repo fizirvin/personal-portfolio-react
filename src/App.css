@@ -373,6 +373,10 @@ margin-right: 2%;
 
 }
 
+.skill-education-title{
+  font-weight: bolder;
+}
+
 .skill-education-table{
   
   border-radius: 5px;
@@ -420,9 +424,9 @@ margin-right: 2%;
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #888;
-  width: 80%;
+  width: 85%;
   border-radius: 4px;
 }
 
@@ -443,11 +447,17 @@ margin-right: 2%;
 }
 
 .skill-certification{
-  
+  font-weight: bold;
   display: block;
   
   justify-content: center;
-  
-  
+}
 
+.cert-image{
+  width: 100%
+}
+
+.cert-button-container{
+  display: flex;
+  justify-content: center;
 }

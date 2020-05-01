@@ -27,9 +27,9 @@ class Certification extends Component {
         return courses.map( course =>{
           return(   
             <tr key={course._id}>
-              <td className='education-badge'><img className='image-badge' src={require(`../images/${course.urlImage}`)} alt='profile-photo'></img> </td>
+              <td className='education-badge'><a href={`${course.urlCourse}`}><img className='image-badge' src={require(`../images/${course.urlImage}`)} alt='badge'></img></a> </td>
               <td className='education-data'> 
-                <div className='certification-button'>{course.courseName}</div> 
+                <div className='certification-button'><a href={`${course.urlCertification}`}>{course.courseName}</a></div> 
               </td>
             </tr>   
           )
@@ -45,12 +45,11 @@ class Certification extends Component {
       else{
           return (
             <div className='skill-certification'>
-              <img className='image-badge' src={require(`../images/${path.cert}`)} alt='profile-photo'></img>
+              {path.pathName} Certification:
+              <a href={`${path.urlPathCertification}`}><img className='cert-image' src={require(`../images/${path.cert}`)} alt='certificate'></img></a>
+              <a href={`${path.urlPath}`}>Certification Path courses:</a>
                   <table className='skill-education-table'>
-                      <thead>
-                      <tr><th colSpan='2'>{path.cert} </th></tr>
-                          <tr><th colSpan='2'>{path.pathName} </th></tr>
-                      </thead>
+                      
                       <tbody>
                         {this.renderCourses()}
                       </tbody>
@@ -81,8 +80,10 @@ class Certification extends Component {
                   {this.renderPaths()}
                 
                </div>
-               <button onClick={this.showState}>state</button>
+               <div className='cert-button-container'>
                <Link to={'/education'}><button>close</button> </Link>
+               </div>
+               
 
 
               </div>

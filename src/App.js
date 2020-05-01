@@ -38,9 +38,7 @@ class App extends React.Component {
             _id
             courseName
             urlImage
-            urlRepository
             urlCourse
-            urlInstructor
             urlCertification
             platform
           }
