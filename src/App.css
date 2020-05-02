@@ -16,7 +16,7 @@
 .Options{
   
   height: 5vh;
-  background-color: gold;
+  
   border: 1px solid;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .Nav{
-  
+  background-color: gold;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +105,7 @@
 
 
 .Footer_component{
-  background-color: brown;
+  background-color: chartreuse;
 }
 
 
@@ -116,6 +116,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .skill_list{
@@ -172,7 +173,7 @@
 .header_section_title{
   display: flex;
   height: 5vh;
-  background-color: chartreuse;
+  background-color: gold;
   text-align: center;
   font-weight: bold;
   justify-content: left;
@@ -460,4 +461,11 @@ margin-right: 2%;
 .cert-button-container{
   display: flex;
   justify-content: center;
+}
+
+.plus_content{
+  display: flex;
+  justify-content: center;
+  max-height: 70vh;
+  overflow-y: scroll;
 }
