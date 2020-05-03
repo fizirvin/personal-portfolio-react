@@ -1,6 +1,9 @@
 import React from 'react';
 import Header from './Header'
 
+import tower from '../images/tower.png'
+import car from '../images/car.png'
+
 const Experience = () =>{
     return (
         <div className='Experience'>
@@ -10,7 +13,12 @@ const Experience = () =>{
                 <table className='experience_table'>
                     <tbody>
                         <tr>
-                            <th colSpan='2'><a href="http://www.hyunbo.com/en/company/overview">Hyunbo Corp - automotive industry</a></th>
+                            <th className='company_title' colSpan='2'>
+                                <div className='company_name'>
+                                    <a href="http://www.hyunbo.com/en/company/overview">Hyunbo Corp - Automotive Industry</a>
+                                    <img className='tower' src={car} alt='badge'></img>
+                                </div>
+                            </th>
                         </tr>
                         <tr>
                             <td colSpan='2' className='description_experience'><p className='job_paragraph'><b>Developer for Production Team</b></p></td>
@@ -57,7 +65,12 @@ const Experience = () =>{
                 <table className='experience_table'>
                     <tbody>
                         <tr>
-                            <th colSpan='2'><a href="http://www.siisaglobal.com/">Siisa Global - telecommunications industry</a></th>
+                            <th className='company_title' colSpan='2'>
+                                <div className='company_name'>
+                                    <a href="http://www.siisaglobal.com/">Siisa Global - Telecommunications</a>
+                                    <img className='tower' src={tower} alt='badge'></img>
+                                </div>
+                            </th>
                         </tr>
                         <tr>
                             <td colSpan='2' className='description_experience'><p className='job_paragraph'><b>Developer for RH Team</b></p></td>
