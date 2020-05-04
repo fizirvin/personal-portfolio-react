@@ -13,7 +13,7 @@ const Header = () =>{
             </div>
             <div className='section_header'>
                 <div className='element'>Full Stack Developer</div> 
-                <div className='element'>Irvin Cermeño Fiz</div>
+                <div className='element'>Irvin Fiz</div>
                 
             </div>
             <div className='section_header section-profile'>

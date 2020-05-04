@@ -24,10 +24,13 @@ const Experience = () =>{
                             <td colSpan='2' className='description_experience'><p className='job_paragraph'><b>Developer for Production Team</b></p></td>
                         </tr>
                         <tr>
-                            <td className='period' colSpan='2'>2018/Mar - 2019/Dec (1 year 3 months developing)</td>
+                            <td className='period' colSpan='2'>2018/Mar - 2019/Dec (+1 year developing)</td>
                         </tr>
                         <tr>
-                            <td colSpan='2' className='description_experience'><p className='job_paragraph projects'><b>Description:</b> I was hired by the Production Mananager, for manage the production database mainly. I also collaborated within the Production team (Process Engineering Supervisors). Then, we decided to develop a web application interface.</p> 
+                            <td colSpan='2' className='description_experience'>
+                                <p className='job_paragraph projects'>
+                                        <b>Description:</b> I was hired by the production mananager, for update the production database mainly. I also collaborated within the production team (process engineering supervisors) for some months. 
+                                        Then, the manager of the injection production area ask me to develop a "labels project" and later, a web application interface. Finally, I got only this specific responsibility.</p> 
                             </td>
                         </tr>
                         
@@ -45,18 +48,16 @@ const Experience = () =>{
                             <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/injection-server">https://github.com/fizirvin/injection</a> </td> 
                         </tr>
                         <tr>
-                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Responsabilities:</b></p></td>
+                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Responsibilities:</b></p></td>
                         </tr>
                         <tr>
                             <td className='description_experience' colSpan='2'> 
                                 <ul>
-                                    <li>Develop Web Application Interface for Production Database System</li>
-                                    <li>Update the Master Production Schedule and sending report to Admin Managers daily</li>
-                                    <li>Update Finished Goods Inventory</li>
-                                    <li>Update Production Schedule</li>
+                                    <li>Develop a Web Application Interface for Database System of the Injection Area.</li>
+                                    <li>Code from the scratch, the Backend, and the Frontend App</li>
+                                    <li>Update the Master Production Schedule and sending report to Admin Managers and CEO daily</li>
+                                    <li>Update Production Report Database, Finished Goods Inventory, and Production Plan Schedule</li>
                                     <li>Update weekly KPI'S database & graphics</li>
-                                    <li>Update Production Report Forms</li>
-                                    <li>Update Production Processes Docs</li>
                                 </ul>
                             </td>
                         </tr>
@@ -97,18 +98,15 @@ const Experience = () =>{
                             <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/injection-server">https://github.com/fizirvin/injection</a> </td> 
                         </tr>
                         <tr>
-                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Responsabilities:</b></p></td>
+                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Responsibilities:</b></p></td>
                         </tr>
                         <tr>
                             <td className='description_experience' colSpan='2'> 
                                 <ul>
                                     <li>Develop Web Application Interface for Production Database System</li>
                                     <li>Update the Master Production Schedule and sending report to Admin Managers daily</li>
-                                    <li>Update Finished Goods Inventory</li>
-                                    <li>Update Production Schedule</li>
+                                    <li>Update Daily Production Report, Finished Goods Inventory, and Production Plan Schedule</li>
                                     <li>Update weekly KPI'S database & graphics</li>
-                                    <li>Update Production Report Forms</li>
-                                    <li>Update Production Processes Docs</li>
                                 </ul>
                             </td>
                         </tr>
