@@ -53,7 +53,7 @@ const Experience = () =>{
                         <tr>
                             <td className='description_experience' colSpan='2'> 
                                 <ul>
-                                    <li>Develop a Web Application Interface for Database System of the Injection Area.</li>
+                                    <li>Develop a Web Application Interface for Database System of the Injection Area</li>
                                     <li>Code from the scratch, the Backend, and the Frontend App</li>
                                     <li>Update the Master Production Schedule and sending report to Admin Managers and CEO daily</li>
                                     <li>Update Production Report Database, Finished Goods Inventory, and Production Plan Schedule</li>
@@ -80,7 +80,13 @@ const Experience = () =>{
                             <td className='period' colSpan='2'>2014/Jan - 2017/Dec (1 year developing)</td>
                         </tr>
                         <tr>
-                            <td colSpan='2' className='description_experience'><p className='job_paragraph projects'><b>Description:</b> I was hired by the HR Mananager, for collaborate in this department. I was responsable for the HR & utility cars database. My boss asked me to do a web interface for this DBs and then i had the oportunity to do a web app for the warehouse department</p> 
+                            <td colSpan='2' className='description_experience'><p className='job_paragraph projects'>
+                                <b>Description:</b> I was hired by the HR manager, to collaborate in this area. 
+                                I was responsable for HR & utility cars databases (within HR, I admin the gas budget, car insurances, mechanical services, skill matrix, 
+                                profiles, and so on. I did expenses reports of the branch Office at Houston Tx, they sent me expenses documents to report it to the company's owners). 
+                                To improve the DBs, I took programming courses on different platforms online. 
+                                I learned how to construct SQL DBs and user interfaces professionally. Then, My boss asked me to do a web app and 
+                                I had the opportunity to get programming experience, in warehouse area.</p> 
                             </td>
                         </tr>
                         
