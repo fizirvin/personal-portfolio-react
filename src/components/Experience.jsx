@@ -48,6 +48,19 @@ const Experience = () =>{
                             <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/injection-server">https://github.com/fizirvin/injection</a> </td> 
                         </tr>
                         <tr>
+                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Project:</b> Injection Labels App</p></td>
+                            
+                        </tr>
+                        <tr>
+                            <td className='description_experience project-row' colSpan='2'>Demo Deploy: <a href="https://injection-labels.irvinfiz.now.sh/">https://app.irvinfiz.now.sh/</a> </td> 
+                        </tr>
+                        <tr>
+                            <td className='description_experience project-row' colSpan='2'>Client repo: <a href="https://github.com/fizirvin/injection-labels">https://github.com/fizirvin/injection</a></td> 
+                        </tr>
+                        <tr>
+                            <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/injection-labels-server">https://github.com/fizirvin/injection</a> </td> 
+                        </tr>
+                        <tr>
                             <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Responsibilities:</b></p></td>
                         </tr>
                         <tr>
