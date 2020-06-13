@@ -29,7 +29,7 @@ const Experience = () =>{
                         <tr>
                             <td colSpan='2' className='description_experience'>
                                 <p className='job_paragraph projects'>
-                                        <b>Description:</b> I was hired by the production mananager, for update the production database mainly. I also collaborated within the production team (process engineering supervisors) for some months. 
+                                        <b>Description:</b> I was hired by the production mananager, for update the production database mainly. I also collaborated within the production team for 1 year. 
                                         Then, the manager of the injection production area ask me to develop a "labels project" and later, a web application interface. Finally, I got only this specific responsibility.</p> 
                             </td>
                         </tr>
@@ -39,26 +39,26 @@ const Experience = () =>{
                             
                         </tr>
                         <tr>
-                            <td className='description_experience project-row' colSpan='2'>Demo Deploy: <a href="https://injection-app.irvinfiz.now.sh/">https://app.irvinfiz.now.sh/</a> </td> 
+                            <td className='description_experience project-row' colSpan='2'><a href="https://injection-app.irvinfiz.now.sh/">Injection Production Demo Deploy</a> </td> 
                         </tr>
                         <tr>
-                            <td className='description_experience project-row' colSpan='2'>Client repo: <a href="https://github.com/fizirvin/injection-react">https://github.com/fizirvin/injection</a></td> 
+                            <td className='description_experience project-row' colSpan='2'><a href="https://github.com/fizirvin/injection-react">Client repo (github.com/fizirvin)</a></td> 
                         </tr>
                         <tr>
-                            <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/injection-server">https://github.com/fizirvin/injection</a> </td> 
+                            <td className='description_experience project-row' colSpan='2'><a href="https://github.com/fizirvin/injection-server">Backend repo (github.com/fizirvin)</a> </td> 
                         </tr>
                         <tr>
-                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Project:</b> Injection Labels App</p></td>
+                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Project:</b> Injection Labels Web App</p></td>
                             
                         </tr>
                         <tr>
-                            <td className='description_experience project-row' colSpan='2'>Demo Deploy: <a href="https://injection-labels.irvinfiz.now.sh/">https://app.irvinfiz.now.sh/</a> </td> 
+                            <td className='description_experience project-row' colSpan='2'><a href="https://injection-labels.irvinfiz.now.sh/">Labels Demo Deploy</a> </td> 
                         </tr>
                         <tr>
-                            <td className='description_experience project-row' colSpan='2'>Client repo: <a href="https://github.com/fizirvin/injection-labels">https://github.com/fizirvin/injection</a></td> 
+                            <td className='description_experience project-row' colSpan='2'><a href="https://github.com/fizirvin/injection-labels">Client repo (github.com/fizirvin)</a></td> 
                         </tr>
                         <tr>
-                            <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/injection-labels-server">https://github.com/fizirvin/injection</a> </td> 
+                            <td className='description_experience project-row' colSpan='2'><a href="https://github.com/fizirvin/injection-labels-server">Backend repo (github.com/fizirvin)</a> </td> 
                         </tr>
                         <tr>
                             <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Responsibilities:</b></p></td>
