@@ -95,11 +95,11 @@ const Experience = () =>{
                         <tr>
                             <td colSpan='2' className='description_experience'><p className='job_paragraph projects'>
                                 <b>Description:</b> I was hired by the HR manager, to collaborate in this area. 
-                                I was responsable for HR & utility cars databases (within HR, I admin the gas budget, car insurances, mechanical services, skill matrix, 
-                                profiles, and so on. I did expenses reports of the branch Office at Houston Tx, they sent me expenses documents to report it to the company's owners). 
+                                I was responsable for HR databases, I admin the gas budget, car insurances, mechanical services, skill matrix, 
+                                profiles, and so on. Also, I did expenses reports of the branch Office at Houston Tx, they sent me expenses documents to report it to the company's owners. 
                                 To improve the DBs, I took programming courses on different platforms online. 
-                                I learned how to construct SQL DBs and user interfaces professionally. Then, My boss asked me to do a web app and 
-                                I had the opportunity to get programming experience, in warehouse area.</p> 
+                                I learned how to construct DBs and use interfaces professionally. Then, My boss asked me to do a web app and 
+                                I had the opportunity to get programming experience in warehouse area too.</p> 
                             </td>
                         </tr>
                         
