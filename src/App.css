@@ -10,7 +10,7 @@
 
 .Content{
   
-  height: 80vh;
+  height: 83vh;
 }
 
 .Options{
@@ -24,7 +24,7 @@
 
 .Footer{
   
-  height: 14vh;
+  height: 16vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -78,26 +78,37 @@
 .title, .name, .photo, .info{
   margin: auto;
   text-align: center;
+  
 }
+
+
 
 .title{
   display: flex;
-  justify-content: center;/* horizontally */
+  justify-content: center; /* horizontally */
   align-items: center; /*vertically*/
-  height: 10vh;
-  font-size: 200%;
- 
   
- 
+  font-size: 200%;
 }
+
+.title-bar{
+  display: flex;
+  justify-content: center; /* horizontally */
+  align-items: center; /*vertically*/
+  height: 8vh;
+  
+}
+
+
 
 .name{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
- 
+  height: 8vh;
+  
   font-size: 200%;
+  
 }
 
 
@@ -265,7 +276,7 @@
 .objective_container{
   margin-left: 5%;
   margin-right: 5%;
-  display: flex;
+  display: block;
   justify-content: center;/* horizontally */
   align-items: flex-start; /*vertically*/
   text-align: justify;
@@ -300,7 +311,8 @@
 .objective_paragraph{
   margin-top: 12px;
   padding-top: 0;
- 
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .photo{
@@ -316,7 +328,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 47vh;
   
   
 }

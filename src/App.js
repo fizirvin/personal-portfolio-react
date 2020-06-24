@@ -96,9 +96,9 @@ class App extends React.Component {
               />
             </Switch>
           </div>
-          <div className='Options'>
-            <Nav></Nav>
-          </div>
+          {/* <div className='Options'>
+            
+          </div> */}
           <div className='Footer'>
             <Footer></Footer>
           </div>

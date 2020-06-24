@@ -2,14 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import picture from '../pp.jpg'
-
+import Toolbar from './Toolbar'
 
 const Header = () =>{
     return (
         <div className="Header">
             
             <div className='section_header_button'>
-                <div><Link to="/"><button className='navButton'>Home</button></Link></div>
+                {/* <div><Link to="/"><button className='navButton'>Home</button></Link></div> */}
+                <Toolbar></Toolbar>
             </div>
             <div className='section_header'>
                 <div className='element'>Full Stack Developer</div> 
