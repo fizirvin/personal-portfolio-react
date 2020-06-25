@@ -10,7 +10,7 @@ const Objective = () =>{
             <table>
                 <tbody>
                     <tr>
-                        <td><b>Features:</b></td>
+                        <td className='italic_row'><b>Features:</b></td>
                     </tr>
                     <tr>
                         <td>Database entities modeling.</td>

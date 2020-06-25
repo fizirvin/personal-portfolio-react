@@ -9,9 +9,10 @@ import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Education from './components/Education'
 import Plus from './components/Plus'
-import Nav from './components/Nav'
+
 import Footer from './components/Footer'
 import Certification from './components/Certification'
+import Projects from './components/Projects'
 
 class App extends React.Component {
   state={
@@ -79,7 +80,7 @@ class App extends React.Component {
 
 
   render(){
-    console.log('hola', this.state.techs)
+    
     return (
       <BrowserRouter>
         <div className="App">
@@ -90,7 +91,7 @@ class App extends React.Component {
               <Route path="/experience" exact component={ props => ( <Experience></Experience> )} />
               <Route path="/education" exact component={ props => (  <Education techs={this.state.techs}></Education> )} />
               <Route path="/plus" exact component={ props => (  <Plus></Plus> )} />
-
+              <Route path="/projects" exact component={ props => (  <Projects></Projects> )} />
               <Route path="/education/certifications/:id" exact component={ props => ( <Certification {...props} 
               paths={this.state.paths} /> )} 
               />

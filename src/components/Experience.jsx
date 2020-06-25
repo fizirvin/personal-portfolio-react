@@ -33,33 +33,6 @@ const Experience = () =>{
                                         Then, the manager of the injection production area ask me to develop a "labels project" and later, a web application interface. Finally, I got only this specific responsibility.</p> 
                             </td>
                         </tr>
-                        
-                        <tr>
-                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Project:</b> Injection Production Web App</p></td>
-                            
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'><a href="https://injection-app.irvinfiz.now.sh/">Injection Production Demo Deploy</a> </td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'><a href="https://github.com/fizirvin/injection-react">Client repo (github.com/fizirvin)</a></td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'><a href="https://github.com/fizirvin/injection-server">Backend repo (github.com/fizirvin)</a> </td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Project:</b> Injection Labels Web App</p></td>
-                            
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'><a href="https://injection-labels.irvinfiz.now.sh/">Labels Demo Deploy</a> </td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'><a href="https://github.com/fizirvin/injection-labels">Client repo (github.com/fizirvin)</a></td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'><a href="https://github.com/fizirvin/injection-labels-server">Backend repo (github.com/fizirvin)</a> </td> 
-                        </tr>
                         <tr>
                             <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Responsibilities:</b></p></td>
                         </tr>
@@ -101,46 +74,6 @@ const Experience = () =>{
                                 I learned how to construct DBs and use interfaces professionally. Then, My boss asked me to do a web app and 
                                 I had the opportunity to get programming experience in warehouse area too.</p> 
                             </td>
-                        </tr>
-                        
-                        <tr>
-                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Project:</b> HR Web App</p></td>
-                            
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Demo Deploy: <a href="https://hr-app.irvinfiz.now.sh/">https://app.irvinfiz.now.sh/</a> </td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Client repo: <a href="https://github.com/fizirvin/hr-app">https://github.com/fizirvin/</a></td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/hr-app-server">https://github.com/fizirvin/</a> </td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Project:</b> Utility Cars Web App</p></td>
-                            
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Demo Deploy: <a href="https://hr-cars-app.irvinfiz.now.sh/">https://app.irvinfiz.now.sh/</a> </td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Client repo: <a href="https://github.com/fizirvin/hr-cars-app">https://github.com/fizirvin/</a></td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/hr-cars-server">https://github.com/fizirvin/</a> </td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Project:</b> Warehouse Stock Web App</p></td>
-                            
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Demo Deploy: <a href="https://warehouse-stock-app.irvinfiz.now.sh/">https://app.irvinfiz.now.sh/</a> </td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Client repo: <a href="https://github.com/fizirvin/warehouse-stock-app">https://github.com/fizirvin/</a></td> 
-                        </tr>
-                        <tr>
-                            <td className='description_experience project-row' colSpan='2'>Backend repo: <a href="https://github.com/fizirvin/warehouse-stock-server">https://github.com/fizirvin/</a> </td> 
                         </tr>
                         <tr>
                             <td className='description_experience' colSpan='2'><p className='job_paragraph'><b>Responsibilities:</b></p></td>

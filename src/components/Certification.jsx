@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 
+import '../App.css';
+
 class Certification extends Component {
     state= {
       path: {}
@@ -29,7 +31,7 @@ class Certification extends Component {
             <tr key={course._id}>
               <td className='education-badge'><a href={`${course.urlCourse}`}><img className='image-badge' src={require(`../images/${course.urlImage}`)} alt='badge'></img></a> </td>
               <td className='education-data'> 
-                <div className='certification-button'><a href={`${course.urlCertification}`}>{course.courseName}</a></div> 
+                <a className='certification-name' href={`${course.urlCertification}`}>{course.courseName}</a>
               </td>
             </tr>   
           )

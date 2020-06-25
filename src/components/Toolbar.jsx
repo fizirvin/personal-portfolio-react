@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/toolbar.css'
 import menu from '../images/menu.png'
+import Experience from './Experience';
 class Toolbar extends Component {
   state={
     items: 
-    ['skills', 'experience', 'education', 'plus'],
+    ['skills', 'projects', 'education', 'plus', 'contact'],
   }
 
   renderItems = (arr) =>{
@@ -21,6 +22,7 @@ class Toolbar extends Component {
           <div className='dropbtn'><img className='menu' src={menu} alt='badge'></img></div>
           <div className='dropdown-content'>
             {this.renderItems(this.state.items)}
+            <Link to={'/experience'}>Job Experience</Link>
             <Link to={`/`}>Home</Link>
           </div>
         </div>
