@@ -7,11 +7,8 @@ import Toolbar from './Toolbar'
 const Header = () =>{
     return (
         <div className="Header">
+            <Toolbar></Toolbar>
             
-            <div className='section_header_button'>
-                {/* <div><Link to="/"><button className='navButton'>Home</button></Link></div> */}
-                <Toolbar></Toolbar>
-            </div>
             <div className='section_header'>
                 <div className='element'>Full Stack Developer</div> 
                 <div className='element'>Irvin Fiz</div>

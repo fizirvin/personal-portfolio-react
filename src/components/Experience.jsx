@@ -10,7 +10,7 @@ const Experience = () =>{
             <Header></Header>
             <div className='header_section_title'>Experience</div>
             <div className='experience_content'>
-                <table className='experience_table'>
+                <table className='experience_table job-a'>
                     <tbody>
                         <tr>
                             <th className='company_title' colSpan='2'>
@@ -49,7 +49,7 @@ const Experience = () =>{
                         </tr>
                     </tbody>
                 </table>
-                <table className='experience_table'>
+                <table className='experience_table job-b'>
                     <tbody>
                         <tr>
                             <th className='company_title' colSpan='2'>

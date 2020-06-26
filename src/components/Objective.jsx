@@ -13,25 +13,25 @@ const Objective = () =>{
                         <td className='italic_row'><b>Features:</b></td>
                     </tr>
                     <tr>
-                        <td>Database entities modeling.</td>
+                        <td>- Database entities modeling.</td>
                     </tr>
                     <tr>
-                        <td>Endpoint functions on the Backend server.</td>
+                        <td>- Endpoint functions on the Backend server.</td>
                     </tr>
                     <tr>
-                        <td>Data feedback connection DB &lt;-&gt; Client.</td>
+                        <td>- Data feedback connection DB &lt;-&gt; Client.</td>
                     </tr>
                     <tr>
-                        <td><b>Single Page App (SPA)</b> for the client side.</td>
+                        <td>- <b>Single Page App (SPA)</b> for the client side.</td>
                     </tr>
                     <tr>
-                        <td>User Interface: Spreedsheet, ERP system.</td>
+                        <td>- User Interface: Spreedsheet, ERP system.</td>
                     </tr>
                     <tr>
-                        <td>Focus +2 years on <b>Javascript MERN stack</b>.</td>
+                        <td>- Focus +2 years on <b>Javascript MERN stack</b>.</td>
                     </tr>
                     <tr>
-                    <td><b>MongoDB, Express.js React.js Node.js</b></td>
+                    <td>- <b>MongoDB, Express.js React.js Node.js</b></td>
                     </tr>
                 </tbody>
             </table>

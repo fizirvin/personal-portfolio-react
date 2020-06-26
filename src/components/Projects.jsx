@@ -21,10 +21,16 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://injection-app.irvinfiz.now.sh/">Injection Prod Demo Deploy</a> </td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row'><a href="https://github.com/fizirvin/injection-react">Client Repository</a></td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/injection-react">Client repository</a></td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row row-end'><a href="https://github.com/fizirvin/injection-server">Backend Repository</a> </td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/injection-server">Backend repository</a> </td> 
+                        </tr>
+                        <tr>
+                            <td className='project-table-row'>React.js + D3.js + Node.js + MongoDB + GraphQL</td> 
+                        </tr>
+                        <tr>
+                            <td className='project-table-row row-end'>Desktop + Laptop</td> 
                         </tr>
                         <tr>
                             <td className='row-separation'>
@@ -42,10 +48,16 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://injection-labels.irvinfiz.now.sh/">Labels Demo Deploy</a> </td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row'><a href="https://github.com/fizirvin/injection-labels">Client Repository</a></td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/injection-labels">Client repository</a></td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row row-end'><a href="https://github.com/fizirvin/injection-labels-server">Backend Repository</a> </td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/injection-labels-server">Backend repository</a> </td> 
+                        </tr>
+                        <tr>
+                        <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td>
+                        </tr>
+                        <tr>
+                            <td className='project-table-row row-end'>Desktop + Laptop</td> 
                         </tr>
                         <tr>
                             <td className='row-separation'>
@@ -62,10 +74,16 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://hr-app.irvinfiz.now.sh/">HR Demo Deploy</a> </td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row'><a href="https://github.com/fizirvin/hr-app">Client Repository</a></td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/hr-app">Client repository</a></td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row row-end'><a href="https://github.com/fizirvin/hr-app-server">Backend Repository</a> </td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/hr-app-server">Backend repository</a> </td> 
+                        </tr>
+                        <tr>
+                        <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td>
+                        </tr>
+                        <tr>
+                            <td className='project-table-row row-end'>Desktop + Laptop</td> 
                         </tr>
                         <tr>
                             <td className='row-separation'>
@@ -82,10 +100,16 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://hr-cars-app.irvinfiz.now.sh/">Utility Cars Demo Deploy</a> </td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row'><a href="https://github.com/fizirvin/hr-cars-app">Client Repository</a></td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/hr-cars-app">Client repository</a></td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row row-end'><a href="https://github.com/fizirvin/hr-cars-server">Backend Repository</a> </td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/hr-cars-server">Backend repository</a> </td> 
+                        </tr>
+                        <tr>
+                        <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td>  
+                        </tr>
+                        <tr>
+                            <td className='project-table-row row-end'>Desktop + Laptop</td> 
                         </tr>
                         <tr>
                             <td className='row-separation'>
@@ -102,10 +126,16 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://warehouse-stock-app.irvinfiz.now.sh/">Warehouse Stock Demo Deploy</a> </td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row'><a href="https://github.com/fizirvin/warehouse-stock-app">Client Repository</a></td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/warehouse-stock-app">Client repository</a></td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row row-end'><a href="https://github.com/fizirvin/warehouse-stock-server">Backend Repository</a> </td> 
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/warehouse-stock-server">Backend repository</a> </td> 
+                        </tr>
+                        <tr>
+                        <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td>
+                        </tr>
+                        <tr>
+                            <td className='project-table-row row-end'>Desktop + Laptop</td> 
                         </tr>
                         <tr>
                             <td className='row-separation'>

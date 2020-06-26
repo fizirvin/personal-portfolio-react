@@ -22,7 +22,7 @@ class Toolbar extends Component {
           <div className='dropbtn'><img className='menu' src={menu} alt='badge'></img></div>
           <div className='dropdown-content'>
             {this.renderItems(this.state.items)}
-            <Link to={'/experience'}>Job Experience</Link>
+            <Link to={'/experience'}>Experience (jobs)</Link>
             <Link to={`/`}>Home</Link>
           </div>
         </div>
