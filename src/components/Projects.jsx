@@ -38,6 +38,32 @@ const Projects = () =>{
                             </td>
                         </tr>
                     </tbody>
+                    <tbody className='projects_body'>
+                    <tr>
+                            <td className='project-table-row row-start'><b>Personal Portfolio Web App</b></td>
+                            
+                        </tr>
+                        <tr>
+                            <td className='project-table-row'><a href="https://personal-portfolio.irvinfiz.now.sh/">Personal Portfolio Deploy</a> </td> 
+                        </tr>
+                        <tr>
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/personal-portfolio-react">Client repository</a></td> 
+                        </tr>
+                        <tr>
+                            <td className='project-table-row'><a href="https://github.com/fizirvin/personal-portfolio-server">Backend repository</a> </td> 
+                        </tr>
+                        <tr>
+                            <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td> 
+                        </tr>
+                        <tr>
+                            <td className='project-table-row row-end'>Mobile + Desktop + Laptop</td> 
+                        </tr>
+                        <tr>
+                            <td className='row-separation'>
+
+                            </td>
+                        </tr>
+                    </tbody>
                    
                     <tbody className='projects_body'>
                     <tr>

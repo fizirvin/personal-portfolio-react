@@ -290,13 +290,13 @@
 
 .job-a{
   background-color: rgb(50, 187, 50);
-  box-shadow: 0px 0px 4px 2px;
+  box-shadow: 0px 0px 4px 5px rgb(4, 99, 4);
   
 }
 
 .job-b{
-  background-color: rgb(17, 90, 248);
-  box-shadow: 0px 0px 4px 2px;
+  background-color: rgba(76, 128, 241, 0.774);
+  box-shadow: 0px 0px 4px 5px rgb(2, 19, 58);
   
 }
 
@@ -310,8 +310,8 @@
 
 .description_experience{
   text-align: justify;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
   
 }
 
@@ -319,6 +319,13 @@
   margin-top: 1vh;
   margin-bottom: 0;
   
+}
+
+.job_name{
+  display: flex;
+  border-bottom: solid 2px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .exp_row{
@@ -580,17 +587,19 @@ margin-right: 2%;
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-top: 2%;
 }
 
 .company_name{
   display: flex;
   
   width: 95%;
-  border-radius: 20px;
-  border: solid 2px hotpink;;
+  border-radius: 15px;
+  border: solid 3px hotpink;
+  padding: 2px;
   align-content: center;
   justify-content: center;
-  
+  background-color: honeydew;
 }
 
 .tower{
