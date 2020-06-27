@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route } from 'react-router-dom';
-
+import detect from 'detect.js'
 
 
 import './App.css';
@@ -13,6 +13,12 @@ import Plus from './components/Plus'
 import Footer from './components/Footer'
 import Certification from './components/Certification'
 import Projects from './components/Projects'
+import initialQuery from './functions/initialQuery.js'
+import { url, opts } from './functions/config.js'
+
+const mob = detect.parse(navigator.userAgent)
+const { type, family } = mob.device
+const os = mob.os.family
 
 class App extends React.Component {
   state={
@@ -23,55 +29,63 @@ class App extends React.Component {
   }
 
   async componentDidMount(){
-    const query = `query{
-      techs {
-        _id
-        technologyName
-        paths {
-          _id
-          pathName
-          coreTechnology
-          urlPath
-          urlImage
-          urlPathCertification
-          cert
-          courses {
-            _id
-            courseName
-            urlImage
-            urlCourse
-            urlCertification
-            platform
-          }
-        } 
-      }
-      paths {
-        _id
-        pathName
-        coreTechnology
-        urlPath
-        urlImage
-        urlPathCertification
-        cert
-        courses {
-          _id
-          courseName
-          urlImage
-          urlRepository
-          urlCourse
-          urlInstructor
-          urlCertification
-          platform
-        }
-      }
-    }`
+    // const query = `query{
+    //   techs {
+    //     _id
+    //     technologyName
+    //     paths {
+    //       _id
+    //       pathName
+    //       coreTechnology
+    //       urlPath
+    //       urlImage
+    //       urlPathCertification
+    //       cert
+    //       courses {
+    //         _id
+    //         courseName
+    //         urlImage
+    //         urlCourse
+    //         urlCertification
+    //         platform
+    //       }
+    //     } 
+    //   }
+    //   paths {
+    //     _id
+    //     pathName
+    //     coreTechnology
+    //     urlPath
+    //     urlImage
+    //     urlPathCertification
+    //     cert
+    //     courses {
+    //       _id
+    //       courseName
+    //       urlImage
+    //       urlRepository
+    //       urlCourse
+    //       urlInstructor
+    //       urlCertification
+    //       platform
+    //     }
+    //   }
+    // }`
 
-    const url = this.state.server;
-    const opts = {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ query })
-    };
+    
+    // const opts = {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify({ query })
+    // };
+
+    initialQuery.variables = {
+      family: family,
+      type: type,
+      os: os
+    }
+    opts.body = JSON.stringify(initialQuery)
+
     const res = await fetch(url, opts);
     const data = await res.json();
     
