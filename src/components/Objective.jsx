@@ -19,13 +19,13 @@ const Objective = () =>{
                         <td>- Endpoint functions on the Backend server.</td>
                     </tr>
                     <tr>
-                        <td>- Data feedback connection DB &lt;-&gt; Client.</td>
+                        <td>- DB/Client connection (GraphQL API).</td>
                     </tr>
                     <tr>
-                        <td>- <b>Single Page App (SPA)</b> for the client side.</td>
+                        <td>- <b>Single Page App (SPA)</b> for Frontend.</td>
                     </tr>
                     <tr>
-                        <td>- User Interface: Spreedsheet, ERP system.</td>
+                        <td>- Automation: Spreedsheet, ERP system.</td>
                     </tr>
                     <tr>
                         <td>- Focus +2 years on <b>Javascript MERN stack</b>.</td>

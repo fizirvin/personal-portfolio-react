@@ -10,7 +10,7 @@ const Experience = () =>{
             <Header></Header>
             <div className='header_section_title'>Experience</div>
             <div className='experience_content'>
-            <table className='experience_table job-a'>
+                <table className='experience_table job-a'>
                     <tbody>
                         <tr>
                             <th className='company_title' colSpan='2'>
@@ -21,7 +21,7 @@ const Experience = () =>{
                             </th>
                         </tr>
                         <tr>
-                            <td colSpan='2' className='description_experience job_name'><p className='job_paragraph'><b>Developer for Production Team</b></p></td>
+                            <td colSpan='2' className='description_experience job_name'><p className='job_paragraph'><b>Remote Software Developer</b></p></td>
                         </tr>
                         <tr>
                             <td className='period' colSpan='2'>2020/Jan - 2020/Jul (7 months developing)</td>
@@ -29,7 +29,7 @@ const Experience = () =>{
                         <tr>
                             <td colSpan='2' className='description_experience'>
                                 <p className='job_paragraph projects'>
-                                        <b>Description:</b> The Web App of the injection Production Area needs to be updated because of the process of the company.</p> 
+                                        <b>Description:</b> The Web App of the injection Production Area needs to be updated because of the process of the company. The project needs to keep developing, get some more modules to the system, and more automation. </p> 
                             </td>
                         </tr>
                         <tr>
