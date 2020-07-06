@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/toolbar.css'
 import menu from '../images/menu.png'
-import Experience from './Experience';
+
 class Toolbar extends Component {
   state={
     items: 
-    ['skills', 'projects', 'education', 'plus', 'contact'],
+    ['skills', 'projects', 'education', 'plus'],
   }
 
   renderItems = (arr) =>{
