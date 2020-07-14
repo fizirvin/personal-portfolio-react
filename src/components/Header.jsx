@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import picture from '../pp.jpg'
 import Toolbar from './Toolbar'
