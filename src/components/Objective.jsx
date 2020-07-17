@@ -25,13 +25,13 @@ const Objective = () =>{
                         <td>- <b>Single Page App (SPA)</b> for Frontend.</td>
                     </tr>
                     <tr>
-                        <td>- Automation: Spreedsheet, ERP system.</td>
+                        <td>- Automation: Spreadsheet, ERP system.</td>
                     </tr>
                     <tr>
                         <td>- Focus +2 years on <b>Javascript MERN stack</b>.</td>
                     </tr>
                     <tr>
-                    <td>- <b>MongoDB, Express.js React.js Node.js</b></td>
+                    <td>- <b>React.js, Node.js, MongoDB, Express.js</b></td>
                     </tr>
                 </tbody>
             </table>
