@@ -5,7 +5,7 @@ const Objective = () =>{
         <div className='Objective'>
             <div className='objective_container'>
             <p className='objective_paragraph'>
-                Software development improves Business process automation of all kind of companies.
+            I like to build digital solutions to improve business process and workflows automation.
             As a <b>Full Stack Developer</b>, I code all the logic of <b>modern Web Apps</b>.</p>
             <table>
                 <tbody>
@@ -13,25 +13,22 @@ const Objective = () =>{
                         <td className='italic_row'><b>Features:</b></td>
                     </tr>
                     <tr>
-                        <td>- Database entities modeling.</td>
+                        <td>- Endpoint functions in the Backend server.</td>
                     </tr>
                     <tr>
-                        <td>- Endpoint functions on the Backend server.</td>
+                        <td>- DB modeling.</td>
                     </tr>
                     <tr>
-                        <td>- DB/Client connection (GraphQL API).</td>
+                        <td>- Client-DB connection (GraphQL API).</td>
                     </tr>
                     <tr>
-                        <td>- <b>Single Page App (SPA)</b> for Frontend.</td>
+                        <td>- <b>Single Page App (SPA)</b> in Frontend.</td>
                     </tr>
                     <tr>
-                        <td>- Automation: Spreadsheet, ERP system.</td>
+                        <td>- Focus on <b>JavaScript full stack</b>.</td>
                     </tr>
                     <tr>
-                        <td>- Focus +2 years on <b>Javascript MERN stack</b>.</td>
-                    </tr>
-                    <tr>
-                    <td>- <b>React.js, Node.js, MongoDB, Express.js</b></td>
+                    <td>- <b>React.js, Redux.js, Node.js, MongoDB</b></td>
                     </tr>
                 </tbody>
             </table>

@@ -18,6 +18,9 @@ const Projects = () =>{
                             
                         </tr>
                         <tr>
+                            <td className='project-table-row'><b>Description: </b>A web app to manage the daily production reports Database. </td> 
+                        </tr>
+                        <tr>
                             <td className='project-table-row'><a href="https://injection-app.irvinfiz.now.sh/">Injection Prod Demo Deploy</a> </td> 
                         </tr>
                         <tr>
@@ -27,7 +30,7 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://github.com/fizirvin/injection-server">Backend repository</a> </td> 
                         </tr>
                         <tr>
-                            <td className='project-table-row'>React.js + D3.js + Node.js + MongoDB + GraphQL</td> 
+                            <td className='project-table-row'>React.js + Redux.js + Node.js + GraphQL + MongoDB + AWS + D3.js</td> 
                         </tr>
                         <tr>
                             <td className='project-table-row row-end'>Desktop + Laptop</td> 
@@ -42,6 +45,9 @@ const Projects = () =>{
                     <tr>
                             <td className='project-table-row row-start'><b>Personal Portfolio Web App</b></td>
                             
+                        </tr>
+                        <tr>
+                            <td className='project-table-row'><b>Description: </b>A web app to introduce myself and my projects </td> 
                         </tr>
                         <tr>
                             <td className='project-table-row'><a href="https://personal-portfolio.irvinfiz.now.sh/">Personal Portfolio Deploy</a> </td> 
@@ -71,6 +77,9 @@ const Projects = () =>{
                             
                         </tr>
                         <tr>
+                            <td className='project-table-row'><b>Description: </b>A web app to configurate the production labels before printing </td> 
+                        </tr>
+                        <tr>
                             <td className='project-table-row'><a href="https://injection-labels.irvinfiz.now.sh/">Labels Demo Deploy</a> </td> 
                         </tr>
                         <tr>
@@ -80,7 +89,7 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://github.com/fizirvin/injection-labels-server">Backend repository</a> </td> 
                         </tr>
                         <tr>
-                        <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td>
+                        <td className='project-table-row'>React.js + Redux.js + Node.js + GraphQL + MongoDB</td>
                         </tr>
                         <tr>
                             <td className='project-table-row row-end'>Desktop + Laptop</td> 
@@ -97,6 +106,9 @@ const Projects = () =>{
                             
                         </tr>
                         <tr>
+                            <td className='project-table-row'><b>Description: </b>A web app to manage the Employee Profile Database </td> 
+                        </tr>
+                        <tr>
                             <td className='project-table-row'><a href="https://hr-app.irvinfiz.now.sh/">HR Demo Deploy</a> </td> 
                         </tr>
                         <tr>
@@ -106,7 +118,7 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://github.com/fizirvin/hr-app-server">Backend repository</a> </td> 
                         </tr>
                         <tr>
-                        <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td>
+                        <td className='project-table-row'>React.js + Redux.js + Node.js + GraphQL + MongoDB + AWS</td>
                         </tr>
                         <tr>
                             <td className='project-table-row row-end'>Desktop + Laptop</td> 
@@ -117,10 +129,13 @@ const Projects = () =>{
                             </td>
                         </tr>
                     </tbody>
-                    <tbody className='projects_body'>
+                    {/* <tbody className='projects_body'>
                     <tr>
                             <td className='project-table-row row-start'><b>Utility Cars Web App</b></td>
                             
+                        </tr>
+                        <tr>
+                            <td className='project-table-row'><b>Description: </b>A web app to manage the utility cars admin process of a company. </td> 
                         </tr>
                         <tr>
                             <td className='project-table-row'><a href="https://hr-cars-app.irvinfiz.now.sh/">Utility Cars Demo Deploy</a> </td> 
@@ -132,7 +147,7 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://github.com/fizirvin/hr-cars-server">Backend repository</a> </td> 
                         </tr>
                         <tr>
-                        <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td>  
+                        <td className='project-table-row'>React.js + Redux.js + Node.js + GraphQL + MongoDB + AWS</td>  
                         </tr>
                         <tr>
                             <td className='project-table-row row-end'>Desktop + Laptop</td> 
@@ -149,6 +164,9 @@ const Projects = () =>{
                             
                         </tr>
                         <tr>
+                            <td className='project-table-row'><b>Description: </b>A web app to manage the Warehouse Inventory Database </td> 
+                        </tr>
+                        <tr>
                             <td className='project-table-row'><a href="https://warehouse-stock-app.irvinfiz.now.sh/">Warehouse Stock Demo Deploy</a> </td> 
                         </tr>
                         <tr>
@@ -158,7 +176,7 @@ const Projects = () =>{
                             <td className='project-table-row'><a href="https://github.com/fizirvin/warehouse-stock-server">Backend repository</a> </td> 
                         </tr>
                         <tr>
-                        <td className='project-table-row'>React.js + Node.js + MongoDB + GraphQL</td>
+                        <td className='project-table-row'>React.js + Redux.js + Node.js + GraphQL + MongoDB + AWS + D3.js</td>
                         </tr>
                         <tr>
                             <td className='project-table-row row-end'>Desktop + Laptop</td> 
@@ -168,7 +186,7 @@ const Projects = () =>{
 
                             </td>
                         </tr>
-                    </tbody>
+                    </tbody> */}
                 </table>
             </div>
             </div>

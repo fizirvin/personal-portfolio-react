@@ -13,14 +13,14 @@ const Plus = () =>{
                         <tr>
                             <td className='header_table'>Additional:</td>
                             <td><ul className='skill_list'>
-                                    {['Bachelor’s degree in Psychology', '(Cognitive Science research experience)','(programming lab software)', 'Is an aproach in User Experience Design'].map( (skill, i) => <li key={i}>{skill}</li>)}
+                                    {['Bachelor of Science degree in Psychology - 2003 - 2009', '(Cognitive Science research experience)','(programming lab software)', 'Is an aproach in User Experience Design'].map( (skill, i) => <li key={i}>{skill}</li>)}
                                 </ul>
                             </td>
                         </tr>
                         <tr>
                             <td className='header_table'>Crossover:</td>
                             <td><ul className='skill_list'>
-                                    {['2 years in Production Team Automotive Industry', '4 years in HR team Telecom Industry', 'experience with Data Bases for office jobs, forms, and admin process', 'I find software development more challenging and necessary on every team work'].map( (skill, i) => <li key={i}>{skill}</li>)}
+                                    {['2 years in Production Team Automotive Industry', '4 years in HR team Telecom Industry', 'experience with Data Bases for office jobs, forms, reports and admin process', 'I find software development more challenging and necessary on every work team'].map( (skill, i) => <li key={i}>{skill}</li>)}
                                 </ul>
                             </td>
                         </tr>

@@ -24,12 +24,12 @@ const Experience = () =>{
                             <td colSpan='2' className='description_experience job_name'><p className='job_paragraph'><b>Remote Software Developer</b></p></td>
                         </tr>
                         <tr>
-                            <td className='period' colSpan='2'>2020/Jan - 2020/Jul (7 months developing)</td>
+                            <td className='period' colSpan='2'>2020/Jan - 2020/Ago (+8 months developing)</td>
                         </tr>
                         <tr>
                             <td colSpan='2' className='description_experience'>
                                 <p className='job_paragraph projects'>
-                                        <b>Description:</b> The Web App of the injection Production Area needs to be updated because of the process of the company. The project needs to keep developing, get some more modules to the system, and more automation. </p> 
+                                        <b>Description:</b> Develop a web app to manage the daily production reports Database. And a web app to configurate the production labels before printing. I am developing and deploying remote.  </p> 
                             </td>
                         </tr>
                         <tr>
@@ -38,9 +38,9 @@ const Experience = () =>{
                         <tr>
                             <td className='description_experience' colSpan='2'> 
                                 <ul>
-                                    <li>Develop Web App project for the Injection Production Area using full javascript stack: React.js, Node.js, Express.js, MongoDB, GraphQL and D3.js.</li>
-                                    <li>Code the full logic of Injection Project, Backend, Frontend and Deployment.</li>
-                                    <li>Maintaining and keeping update the Web App code.</li>
+                                    <li>I develop a Web App for the Database of Injection Molding Production Area with React.js, Redux.js, Node.js GraphQL, MongoDB, AWS, and D3.js.</li>
+                                    <li>Code the full Project: Backend, Frontend and Deployment.</li>
+                                    <li>Maintaining and keeping update.</li>
                                 </ul>
                             </td>
                         </tr>
@@ -57,16 +57,16 @@ const Experience = () =>{
                             </th>
                         </tr>
                         <tr>
-                            <td colSpan='2' className='description_experience job_name'><p className='job_paragraph'><b>Developer for Production Team</b></p></td>
+                            <td colSpan='2' className='description_experience job_name'><p className='job_paragraph'><b>Software Developer for Production Team</b></p></td>
                         </tr>
                         <tr>
-                            <td className='period' colSpan='2'>2019/Feb - 2019/Sep (+1 year developing)</td>
+                            <td className='period' colSpan='2'>2018/Mar - 2019/Sep (+1 year developing)</td>
                         </tr>
                         <tr>
                             <td colSpan='2' className='description_experience'>
                                 <p className='job_paragraph projects'>
                                         <b>Description:</b> I was hired by the production mananager, for update the DB mainly, and collaborate within the production team. 
-                                        Then, the manager of the injection area ask me to develop a "labels project" and later, a user interface for the production DB. Finally, I got only this specific responsibility.</p> 
+                                        Then, the manager of the injection area ask me to develop a "labels project" and later, a web app for the production DB. Finally, I got only this specific responsibility.</p> 
                             </td>
                         </tr>
                         <tr>
@@ -75,8 +75,8 @@ const Experience = () =>{
                         <tr>
                             <td className='description_experience' colSpan='2'> 
                                 <ul>
-                                    <li>Develop Desktop App for the Injection Production Area using VBasic.</li>
-                                    <li>for this project develop a full stack javascript web app using React.js, Node.js GrapqhQL, Express.js and MongoDB and D3.js.</li>
+                                    <li>I developed a desktop app using Vbasic.</li>
+                                    <li>and then a Web App for the Production Area with: React.js, Redux.js, Node.js GraphQL, and MongoDB.</li>
                                 </ul>
                             </td>
                         </tr>
@@ -113,8 +113,8 @@ const Experience = () =>{
                         <tr>
                             <td className='description_experience' colSpan='2'> 
                                 <ul>
-                                    <li>Improving HR Database System using MySql and VBasic.</li>
-                                    <li>Develop a full stack javascript web app using React.js, Node.js GrapqhQL, Express.js and MongoDB.</li>
+                                    <li>Improving HR database and workflow, and using MySql and VBasic.</li>
+                                    <li>I developed a desktop app to get the feature of a collaborative database for the HR Team. Then, for this project, I develop a full stack JavaScript web app using React.js, Redux.js, Node.js GrapqhQL, MongoDB, and AWS.</li>
                                 </ul>
                             </td>
                         </tr>
